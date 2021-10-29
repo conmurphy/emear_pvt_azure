@@ -8,7 +8,7 @@ provider "azurerm" {
 
 }
 
-resource "azurerm_resource_group" "emear_pvt" {
+/*resource "azurerm_resource_group" "emear_pvt" {
   name     = "emear-pvt-rm-health"
   location = "Germany West Central"
 }
@@ -27,3 +27,4 @@ resource "azurerm_redis_cache" "example" {
       enable_authentication = true
   }
 }
+*/
